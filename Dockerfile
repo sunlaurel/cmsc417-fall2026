@@ -23,6 +23,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   tshark \
   iproute2 \
   protobuf-compiler \
+  protobuf-c-compiler
   && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspace
